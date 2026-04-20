@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wadkins Wood & Arts | Custom Fabrication</title>
+    <style>
+        :root { --steel-blue: #4682B4; --slate: #2F4F4F; --iron-red: #8B0000; --dark-bg: #121212; }
+        body { font-family: 'Inter', sans-serif; margin: 0; background: var(--dark-bg); color: #e0e0e0; line-height: 1.6; }
+        header { background: #1a1a1a; padding: 60px 20px; text-align: center; border-bottom: 4px solid var(--steel-blue); }
+        h1 { margin: 0; font-size: 3.5rem; letter-spacing: -2px; color: #fff; }
+        .tagline { color: var(--steel-blue); font-weight: bold; text-transform: uppercase; letter-spacing: 2px; }
+        .request-container { max-width: 1100px; margin: -40px auto 40px; background: #1e1e1e; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border: 1px solid #333; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .service-card { background: #252525; padding: 30px; border-radius: 6px; border-top: 4px solid var(--steel-blue); text-align: center; }
+        .btn { display: inline-block; padding: 12px 24px; background: var(--iron-red); color: white; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 15px; }
+        .portfolio-section { padding: 80px 20px; max-width: 1100px; margin: auto; }
+        .portfolio-header { border-left: 5px solid var(--steel-blue); padding-left: 20px; margin-bottom: 40px; }
+        .item-card { background: #1a1a1a; padding: 20px; border-radius: 4px; border: 1px solid #333; }
+        footer { text-align: center; padding: 40px; background: #0a0a0a; color: #666; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>WADKINS WOOD & ARTS</h1>
+    <div class="tagline">3D Printing • CNC • Laser • Custom Woodworking</div>
+</header>
+<div class="request-container">
+    <h2 style="text-align: center; margin-bottom: 30px;">Custom Fabrication Requests</h2>
+    <div class="grid">
+        <div class="service-card">
+            <h2>3D Printing</h2>
+            <p>High-speed PETG and TPU prints. Industrial prototypes or custom parts.</p>
+            <a href="mailto:jeffrey.wadkins1@gmail.com?subject=3D Printing Quote Request" class="btn">Request Quote</a>
+        </div>
+        <div class="service-card" style="border-top-color: #708090;">
+            <h2>Laser Work</h2>
+            <p>Precision etching on Plexiglass and Wood. Custom branding and lenses.</p>
+            <a href="mailto:jeffrey.wadkins1@gmail.com?subject=Laser Quote Request" class="btn">Request Quote</a>
+        </div>
+        <div class="service-card">
+            <h2>CNC Machining</h2>
+            <p>Custom 3/4" MDF and Plywood routing. Specialized in shop jigs and furniture.</p>
+            <a href="mailto:jeffrey.wadkins1@gmail.com?subject=CNC Quote Request" class="btn">Request Quote</a>
+        </div>
+    </div>
+</div>
+<section class="portfolio-section">
+    <div class="portfolio-header">
+        <h2>Portfolio</h2>
+        <p>Recent builds from the Savannah shop.</p>
+    </div>
+    <div class="grid">
+        <div class="item-card"><h3>Savannah Potter's Bench</h3><p>Solid 3/4" construction.</p></div>
+        <div class="item-card"><h3>Cut-Straight Aero-Core Fence</h3><p>Integrated dust collection.</p></div>
+        <div class="item-card"><h3>Custom Firearm Stock</h3><p>Advanced 3D-printed design.</p></div>
+    </div>
+</section>
+<footer><p>&copy; 2026 Wadkins Wood & Arts Co. | Savannah, GA</p></footer>
+</body>
+</html>
